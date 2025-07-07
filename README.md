@@ -113,18 +113,6 @@ Design a DB for an online food-delivery site.
    SOURCE pizzeria_delivery.sql;
    ```
 
-   ### **Level 2**
-
-   ```sql
-   SOURCE youtube_database.sql;
-   ```
-
-   ### **Level 3**
-
-   ```sql
-   SOURCE spotify_database.sql;
-   ```
-
 3. Verify tables and relationships via SQL queries or the EER diagram view in Workbench.
 
 
