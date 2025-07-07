@@ -1,0 +1,7 @@
+# macOS Finder cache
+.DS_Store
+
+# Workbench backups
+*.mwb.bak
+*.mwb~
+
