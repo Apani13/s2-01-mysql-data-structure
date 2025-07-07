@@ -89,7 +89,7 @@ Design a DB for an online food-delivery site.
 2. **Navigate to the repo**
 
    ```bash
-   cd cd s2-01-mysql-data-structure
+   cd s2-01-mysql-data-structure
    ```
 
 3. **Open** MySQL Workbench *or* your preferred MySQL client.
