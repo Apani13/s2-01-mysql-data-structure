@@ -104,14 +104,7 @@ Design a DB for an online food-delivery site.
 
 1. Open your MySQL client / terminal and make sure the server is running.
 
-2. Execute the scripts in this order:
-
-   ### **Level 1**
-
-   ```sql
-   SOURCE optics_management.sql;
-   SOURCE pizzeria_delivery.sql;
-   ```
+2. Execute the scripts.
 
 3. Verify tables and relationships via SQL queries or the EER diagram view in Workbench.
 
