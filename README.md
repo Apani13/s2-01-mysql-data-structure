@@ -83,13 +83,13 @@ Design a DB for an online food-delivery site.
 1. **Clone this repository**
 
    ```bash
-   git clone https://github.com/Pablo2203/Tasca-S2.01.-Estructura-de-datos---MySQL.git
+   git clone https://github.com/Apani13/s2-t1-mysql-data-structure.git
    ```
 
 2. **Navigate to the repo**
 
    ```bash
-   cd Tasca-S2.01.-Estructura-de-datos---MySQL
+   cd cd s2-01-mysql-data-structure
    ```
 
 3. **Open** MySQL Workbench *or* your preferred MySQL client.
