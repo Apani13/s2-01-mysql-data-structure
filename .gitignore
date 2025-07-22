@@ -1,9 +1,10 @@
 # macOS Finder cache
 .DS_Store
 
-.mwb
+*.mwb
 
 # Workbench backups
 *.mwb.bak
 *.mwb~
+
 
