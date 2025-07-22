@@ -21,6 +21,7 @@ CREATE TABLE customer (
   idcustomer       INT AUTO_INCREMENT PRIMARY KEY,
   name             VARCHAR(45)  NOT NULL,
   email_address    VARCHAR(100) NOT NULL,
+  recommendation_by VARCHAR(45),
   registration_date DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
   contact_information_idcontact_information INT NOT NULL,
   UNIQUE KEY uq_email (email_address),
@@ -107,15 +108,5 @@ CREATE TABLE sales_glasses (
   CONSTRAINT fk_salesglasses_glasses
     FOREIGN KEY (idglasses)
     REFERENCES glasses(idglasses)
-    ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB;
-
-/* --- referrals --- */
-CREATE TABLE recommendation (
-  idrecommendation INT AUTO_INCREMENT PRIMARY KEY,
-  recommendation_by INT NOT NULL,
-  CONSTRAINT fk_recommendation_customer
-    FOREIGN KEY (recommendation_by)
-    REFERENCES customer(idcustomer)
     ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE = InnoDB;
